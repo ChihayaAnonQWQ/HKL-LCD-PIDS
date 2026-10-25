@@ -6,7 +6,7 @@ seen on the Hana-Koshi Line platforms of the **LPS server**.
 Original layout: **Forest_E233** · Recreation / code: **ChihayaAnonQWQ** · License: **MIT**.
 
 This is the LCD-style display — light background, blue clock tab, large destination,
-vertical station names and the route band — not the split-flap display.
+vertical station names and the route band — not the [split-flap display](https://github.com/ChihayaAnonQWQ/HKR-Split-Flap-Display).
 
 ![preview](preview.png)
 

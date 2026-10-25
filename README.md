@@ -7,7 +7,7 @@
 - 复刻 / 代码：**ChihayaAnonQWQ**
 - 开源协议：**MIT**
 
-不是翻牌显示器 —— 这是白底 / 蓝色时钟牌 / 大号目的地 / 竖排站名 / 线路条的
+这次复刻了 LCD，不是[翻牌显示器](https://github.com/ChihayaAnonQWQ/HKR-Split-Flap-Display) —— 这是白底 / 蓝色时钟牌 / 大号目的地 / 竖排站名 / 线路条的
 LCD 风格屏。
 
 ![preview](preview.png)
