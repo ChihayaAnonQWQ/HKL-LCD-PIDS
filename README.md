@@ -242,5 +242,4 @@ python validate.py
 
 MIT。见 `LICENSE`；第三方说明见 `NOTICE.md`。
 
-实拍参考截图由 Anon 提供，仅用于还原版式与配色；本包不包含原资源包的任何素材。
 MTR / JCM 及其自带字体归各自作者所有。
