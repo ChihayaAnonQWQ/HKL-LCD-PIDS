@@ -58,13 +58,46 @@ on the client, so MTR's internal segment durations are unreachable. The route ma
 longer draws the time bubbles: it shows the route band (MTR route colour), station dots and the
 vertical station names, plus the header's service/destination/platform/ETA.
 
+## The HOME parameter (this platform vs. boarding notice)
+
+During the 8–20 s phase the display picks either the **route map** or the **boarding notice**
+based entirely on **HOME** (the "home platform"):
+
+| Platform of the first train | Shown |
+| --- | --- |
+| Same as the HOME platform | Route map (next station → terminus) |
+| Another platform in the PIDS target list | Boarding notice ("This train will arrive at Platform X") |
+| Terminating / not in service | Not-in-service notice (takes priority) |
+
+`HOME=n` is a **1-based index into `pids.getTargetPlatformIds()`**, not the platform number
+shown on the screen (e.g. 6). The list order is the order of the platform IDs configured
+(or auto-detected) for that PIDS.
+
+Set it in the PIDS GUI's **Custom Message** field, on any row:
+
+| Value | Meaning |
+| --- | --- |
+| `HOME=1` | the first platform in the list is "this platform" |
+| `HOME=2` | the second platform |
+| `HOME=0` | use the script default |
+| `HOME=-1` | no home platform: every train shows the boarding notice (for testing) |
+| (none) | script constant `HOME_PLATFORM_INDEX` (0-based, default 0) |
+
+The script constant is **0-based**; the in-game `HOME=n` is **1-based**.
+
+Why the boarding notice may never appear: a single-platform PIDS only receives arrivals for
+that platform, so every arrival matches HOME and always shows the route map. Add another
+platform to the PIDS target list, or use `HOME=-1` to preview the notice.
+
+`HOME=2` does **not** mean "only show notices for platform 2"; it marks the second entry of the
+target list as home, and the notice always shows the platform the train will actually use.
+
 ## Configuration
 
 All tunables live at the top of `assets/jsblock/scripts/hklcd.js`:
 `SS`, `ARRIVING_WARN_MS`, `DOOR_CLOSING_MS`, `VIEW_PERIOD_MS`, `LANG_FORCE`, the `C_*`
 palette, `SERVICE_OVERRIDE` (and the legacy `TRAVEL_PROFILES` table), and `HOME_PLATFORM_INDEX`
-(the index of this PIDS's own platform in `getTargetPlatformIds()`; override it in-game by putting
-`HOME=n` in a custom message (1-based; 0 = default), or `HOME=-1` to force the platform-arrival notice for testing).
+(0-based script default; override it in-game with `HOME=n`, 1-based). See **The HOME parameter** above.
 
 ## Verification (dev only)
 
