@@ -1,0 +1,108 @@
+{
+ "size": [
+  133,
+  72
+ ],
+ "type": "lcd_pids",
+ "now": 1792471620000,
+ "tick": 60,
+ "rows": 4,
+ "station": {
+  "id": 100,
+  "name": "翠葉塚|Cuiye Mound"
+ },
+ "routes": {
+  "local": {
+   "id": 1,
+   "name": "花越線|Hana-Koshi Line||各停|Local",
+   "color": 16483990,
+   "circular": "NONE",
+   "platforms": [
+    {
+     "stationId": 101,
+     "stationName": "翠葉塚|Cuiye Mound",
+     "platformId": 201
+    },
+    {
+     "stationId": 111,
+     "stationName": "赤葉島|Red Leaf Island",
+     "platformId": 211
+    },
+    {
+     "stationId": 121,
+     "stationName": "櫟山|Oak Hill",
+     "platformId": 221
+    },
+    {
+     "stationId": 131,
+     "stationName": "針葉盆地|Conifer Basin",
+     "platformId": 231
+    },
+    {
+     "stationId": 141,
+     "stationName": "丹尼爾斯頓紀念|Danielston Memorial",
+     "platformId": 241
+    },
+    {
+     "stationId": 151,
+     "stationName": "稻毛海岸|Inage Coast",
+     "platformId": 251
+    },
+    {
+     "stationId": 161,
+     "stationName": "秋葉林地|Akiba Woodland",
+     "platformId": 261
+    },
+    {
+     "stationId": 171,
+     "stationName": "花越海岸|Hana-Koshi Beach",
+     "platformId": 271
+    }
+   ]
+  },
+  "rapid": {
+   "id": 2,
+   "name": "花越線|Hana-Koshi Line||快速|Rapid",
+   "color": 16483990,
+   "circular": "NONE",
+   "platforms": [
+    {
+     "stationId": 102,
+     "stationName": "紫荊山|Jacaranda Hill",
+     "platformId": 202
+    },
+    {
+     "stationId": 112,
+     "stationName": "丹尼爾斯頓紀念|Danielston Memorial",
+     "platformId": 212
+    },
+    {
+     "stationId": 122,
+     "stationName": "意象海岸|Image Kaigan",
+     "platformId": 222
+    },
+    {
+     "stationId": 132,
+     "stationName": "花越海岸|Hana-Koshi Beach",
+     "platformId": 232
+    }
+   ]
+  }
+ },
+ "arrivals": [
+  {
+   "routeKey": "rapid",
+   "routeName": "花越線|Hana-Koshi Line||快速|Rapid",
+   "routeNumber": "快速|Rapid",
+   "routeColor": 16483990,
+   "destination": "花越海岸|Hana-Koshi Beach",
+   "platformName": "7",
+   "platformId": 200,
+   "carCount": 6,
+   "arrivalInMs": -20000,
+   "departureInMs": 8000,
+   "realtime": true,
+   "terminating": false
+  }
+ ]
+}

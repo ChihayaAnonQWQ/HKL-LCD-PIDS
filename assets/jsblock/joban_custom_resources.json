@@ -1,0 +1,12 @@
+{
+  "pids_images": [
+    {
+      "id": "hklcd",
+      "name": "HKR LCD PIDS",
+      "thumbnail": "jsblock:textures/pids/hklcd/thumbnail.png",
+      "scriptFiles": [
+        "jsblock:scripts/hklcd.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 6,
+      "max_inclusive": 99
+    },
+    "description": "复刻LPS服务器上花越线的LCD显示屏 原作:Forest_E233 复刻:ChihayaAnonQWQ"
+  }
+}

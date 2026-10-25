@@ -1,0 +1,10 @@
+# Local development / generated artifacts
+_work/
+_ref/
+HKR-LCD-PIDS-DIAG/
+harness/out/
+harness/fonts/
+*.class
+*.zip
+deploy.sh
+harness/weather_sunny.png
