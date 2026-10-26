@@ -1,7 +1,11 @@
 # HKR LCD PIDS
 
+**简体中文** | [English](README_EN.md)
+
 用 **JCM（Joban Client Mod）Scripted PIDS Preset** 复刻 **LPS 服务器**「花越线（Hana-Koshi Line）」
 站台上的 **LCD PIDS** 显示屏。
+
+> **English:** A JCM (Joban Client Mod) Scripted PIDS preset recreating the LCD PIDS of the **LPS server**'s Hana-Koshi Line. Original layout by **Forest_E233**; recreation / code by **ChihayaAnonQWQ**; MIT. See [README_EN.md](README_EN.md) for the full English documentation.
 
 - 原作（LPS 服务器版式）：**Forest_E233**
 - 复刻 / 代码：**ChihayaAnonQWQ**
