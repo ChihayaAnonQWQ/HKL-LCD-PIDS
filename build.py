@@ -20,7 +20,7 @@ FILES = [
 ]
 
 def main():
-    out = pathlib.Path("HKR-LCD-PIDS.zip")
+    out = pathlib.Path("HKL-LCD-PIDS.zip")
     if out.exists():
         out.unlink()
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:

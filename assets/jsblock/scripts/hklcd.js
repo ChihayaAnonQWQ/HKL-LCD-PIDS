@@ -1,5 +1,5 @@
 /* =====================================================================
- *  HKR LCD PIDS  —  JCM Scripted PIDS Preset
+ *  HKL LCD PIDS  —  JCM Scripted PIDS Preset
  *  ---------------------------------------------------------------------
  *  适用：Joban Client Mod (JCM) 2.x  +  MTR 4
  *  文件：assets/jsblock/scripts/hklcd.js
@@ -216,7 +216,7 @@ function render(ctx, state, pids) {
     }
 
     /* 绘制调用必须每帧提交（JCM 每轮脚本执行后清空上一轮） */
-    Texture.create("HKR LCD PIDS")
+    Texture.create("HKL LCD PIDS")
         .texture(state.tex.identifier)
         .size(pids.width, pids.height)
         .draw(ctx);
@@ -227,13 +227,13 @@ function render(ctx, state, pids) {
         var fadeA = fadeT < 600 ? fadeT / 600 : 1.0;
         var aByte = Math.round(fadeA * 255) & 0xFF;
         var argb = (aByte << 24) | 0x00FFFFFF;
-        Texture.create("HKR LCD PIDS sp1900")
+        Texture.create("HKL LCD PIDS sp1900")
             .texture("jsblock:textures/pids/hklcd/sp1900.png")
             .pos(state.warnIcon.x, state.warnIcon.y)
             .size(state.warnIcon.w, state.warnIcon.h)
             .color(argb)
             .draw(ctx);
-        Texture.create("HKR LCD PIDS warn triangle")
+        Texture.create("HKL LCD PIDS warn triangle")
             .texture("jsblock:textures/pids/hklcd/warn_triangle.png")
             .pos(state.warnTri.x, state.warnTri.y)
             .size(state.warnTri.w, state.warnTri.h)
@@ -242,7 +242,7 @@ function render(ctx, state, pids) {
 
     /* 天气图标：JCM 内置贴图（jsblock:textures/block/pids/weather_*.png） */
     if (state.weatherRect != null) {
-        Texture.create("HKR LCD PIDS weather")
+        Texture.create("HKL LCD PIDS weather")
             .texture(weatherPath())
             .pos(state.weatherRect.x, state.weatherRect.y)
             .size(state.weatherRect.w, state.weatherRect.h)

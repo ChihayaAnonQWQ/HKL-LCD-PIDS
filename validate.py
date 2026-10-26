@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HKR LCD PIDS — offline validation.
+"""HKL LCD PIDS — offline validation.
 
 1. static checks on hklcd.js (Rhino pitfalls that have bitten this project before)
 2. run every harness scenario through the real script (Rhino 1.9.1 + Java AWT)
@@ -261,7 +261,7 @@ def colour_checks(renders):
 
 
 def main():
-    print("HKR LCD PIDS validation")
+    print("HKL LCD PIDS validation")
     static_checks()
     java, rhino = find_java(), find_rhino()
     if not java or not rhino:

@@ -1,5 +1,5 @@
 /* =====================================================================
- *  HKR LCD PIDS — offline harness prelude
+ *  HKL LCD PIDS — offline harness prelude
  *  ---------------------------------------------------------------------
  *  Mock of the JCM 2.x scripting runtime on top of real Java AWT.
  *  The script under test is executed unchanged in Rhino; this prelude

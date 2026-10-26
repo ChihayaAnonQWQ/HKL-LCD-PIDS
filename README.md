@@ -1,4 +1,4 @@
-# HKR LCD PIDS
+# HKL LCD PIDS
 
 **简体中文** | [English](README_EN.md)
 
@@ -11,7 +11,7 @@
 - 复刻 / 代码：**ChihayaAnonQWQ**
 - 开源协议：**MIT**
 
-这次复刻了 LCD，不是[翻牌显示器](https://github.com/ChihayaAnonQWQ/HKR-Split-Flap-Display) —— 这是白底 / 蓝色时钟牌 / 大号目的地 / 竖排站名 / 线路条的
+这次复刻了 LCD，不是[翻牌显示器](https://github.com/ChihayaAnonQWQ/HKL-Split-Flap-Display) —— 这是白底 / 蓝色时钟牌 / 大号目的地 / 竖排站名 / 线路条的
 LCD 风格屏。
 
 ![preview](preview.png)
@@ -49,9 +49,9 @@ LCD 风格屏。
 
 安装：
 
-1. 把 `HKR-LCD-PIDS.zip` 放进 `.minecraft/resourcepacks/`（或服务器资源包）。
+1. 把 `HKL-LCD-PIDS.zip` 放进 `.minecraft/resourcepacks/`（或服务器资源包）。
 2. 启用资源包。
-3. 放置 PIDS 方块，在 PIDS 配置界面里选择预设 **HKR LCD PIDS**。
+3. 放置 PIDS 方块，在 PIDS 配置界面里选择预设 **HKL LCD PIDS**。
 
 > 这是**客户端资源包**。如果服务器通过 `server-resource-pack` 下发，也可以正常工作。
 

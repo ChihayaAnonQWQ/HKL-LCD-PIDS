@@ -14,7 +14,7 @@
 - 版式、配色、文案参考自 **LPS 服务器**「花越线（Hana-Koshi Line）」站台的 LCD PIDS
   实拍截图（由 Anon 提供，仅用于还原，不随本包分发）。
 - 原作（LPS 服务器版式）：**Forest_E233**；复刻与脚本实现：**ChihayaAnonQWQ**。
-- 车种识别与「线路号优先」的约定沿用同线路的 HKR Split-Flap Display 资源包。
+- 车种识别与「线路号优先」的约定沿用同线路的 HKL Split-Flap Display 资源包。
 
 ## 第三方 / Third-party
 

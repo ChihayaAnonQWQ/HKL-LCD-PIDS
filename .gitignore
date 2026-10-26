@@ -1,7 +1,7 @@
 # Local development / generated artifacts
 _work/
 _ref/
-HKR-LCD-PIDS-DIAG/
+HKL-LCD-PIDS-DIAG/
 harness/out/
 harness/fonts/
 *.class
